@@ -6,5 +6,5 @@ local gameScripts = {
     [155615604] = "https://raw.githubusercontent.com/astral-123/Prison-Life/refs/heads/main/Astral",
 }
 
-local scriptUrl = gameScripts[game.PlaceId] or "http://dmonmods.xyz/universal.txt"
+local scriptUrl = gameScripts[game.PlaceId] or "https://raw.githubusercontent.com/astral-123/Astral/refs/heads/main/Astral"
 loadstring(game:HttpGet(scriptUrl))()
